@@ -1,0 +1,1285 @@
+{
+ "E01": {
+  "difficulty": "easy",
+  "columns": [
+   "COUNT(*)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    600
+   ]
+  ]
+ },
+ "E02": {
+  "difficulty": "easy",
+  "columns": [
+   "COUNT(*)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    120
+   ]
+  ]
+ },
+ "E03": {
+  "difficulty": "easy",
+  "columns": [
+   "name",
+   "city"
+  ],
+  "row_count": 6,
+  "rows": [
+   [
+    "Lahore Gulberg",
+    "Lahore"
+   ],
+   [
+    "Karachi Clifton",
+    "Karachi"
+   ],
+   [
+    "Islamabad F-7",
+    "Islamabad"
+   ],
+   [
+    "Faisalabad Central",
+    "Faisalabad"
+   ],
+   [
+    "Multan Cantt",
+    "Multan"
+   ],
+   [
+    "Peshawar Saddar",
+    "Peshawar"
+   ]
+  ]
+ },
+ "E04": {
+  "difficulty": "easy",
+  "columns": [
+   "COUNT(*)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    88
+   ]
+  ]
+ },
+ "E05": {
+  "difficulty": "easy",
+  "columns": [
+   "daily_rate"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    25000
+   ]
+  ]
+ },
+ "E06": {
+  "difficulty": "easy",
+  "columns": [
+   "COUNT(*)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    146
+   ]
+  ]
+ },
+ "E07": {
+  "difficulty": "easy",
+  "columns": [
+   "SUM(amount)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    90046585
+   ]
+  ]
+ },
+ "E08": {
+  "difficulty": "easy",
+  "columns": [
+   "COUNT(*)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    27
+   ]
+  ]
+ },
+ "E09": {
+  "difficulty": "easy",
+  "columns": [
+   "MAX(cost)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    247500
+   ]
+  ]
+ },
+ "E10": {
+  "difficulty": "easy",
+  "columns": [
+   "COUNT(*)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    26
+   ]
+  ]
+ },
+ "E11": {
+  "difficulty": "easy",
+  "columns": [
+   "method"
+  ],
+  "row_count": 3,
+  "rows": [
+   [
+    "card"
+   ],
+   [
+    "cash"
+   ],
+   [
+    "bank_transfer"
+   ]
+  ]
+ },
+ "E12": {
+  "difficulty": "easy",
+  "columns": [
+   "COUNT(*)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    109
+   ]
+  ]
+ },
+ "E13": {
+  "difficulty": "easy",
+  "columns": [
+   "AVG(mileage)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    68228.20833333333
+   ]
+  ]
+ },
+ "E14": {
+  "difficulty": "easy",
+  "columns": [
+   "COUNT(*)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    20
+   ]
+  ]
+ },
+ "E15": {
+  "difficulty": "easy",
+  "columns": [
+   "MIN(year)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    2018
+   ]
+  ]
+ },
+ "M01": {
+  "difficulty": "medium",
+  "columns": [
+   "name",
+   "COUNT(*)"
+  ],
+  "row_count": 6,
+  "rows": [
+   [
+    "Faisalabad Central",
+    11
+   ],
+   [
+    "Islamabad F-7",
+    27
+   ],
+   [
+    "Karachi Clifton",
+    32
+   ],
+   [
+    "Lahore Gulberg",
+    27
+   ],
+   [
+    "Multan Cantt",
+    15
+   ],
+   [
+    "Peshawar Saddar",
+    8
+   ]
+  ]
+ },
+ "M02": {
+  "difficulty": "medium",
+  "columns": [
+   "name",
+   "SUM(r.total_amount)"
+  ],
+  "row_count": 6,
+  "rows": [
+   [
+    "Lahore Gulberg",
+    20182850
+   ],
+   [
+    "Karachi Clifton",
+    22598550
+   ],
+   [
+    "Islamabad F-7",
+    21642100
+   ],
+   [
+    "Faisalabad Central",
+    8825750
+   ],
+   [
+    "Multan Cantt",
+    11331150
+   ],
+   [
+    "Peshawar Saddar",
+    6238050
+   ]
+  ]
+ },
+ "M03": {
+  "difficulty": "medium",
+  "columns": [
+   "first_name",
+   "last_name",
+   "total_spend"
+  ],
+  "row_count": 5,
+  "rows": [
+   [
+    "Maryam",
+    "Mirza",
+    2872050
+   ],
+   [
+    "Bushra",
+    "Dar",
+    2581300
+   ],
+   [
+    "Areeba",
+    "Dar",
+    2387300
+   ],
+   [
+    "Hassan",
+    "Khan",
+    2045700
+   ],
+   [
+    "Waqas",
+    "Mirza",
+    1641300
+   ]
+  ]
+ },
+ "M04": {
+  "difficulty": "medium",
+  "columns": [
+   "name",
+   "AVG(julianday(r.end_date) - julianday(r.start_date))"
+  ],
+  "row_count": 6,
+  "rows": [
+   [
+    "Economy",
+    4.984873949579832
+   ],
+   [
+    "Compact",
+    4.75801749271137
+   ],
+   [
+    "Sedan",
+    4.964444444444444
+   ],
+   [
+    "SUV",
+    4.906077348066298
+   ],
+   [
+    "Luxury",
+    4.6918238993710695
+   ],
+   [
+    "Van",
+    4.633663366336633
+   ]
+  ]
+ },
+ "M05": {
+  "difficulty": "medium",
+  "columns": [
+   "method",
+   "SUM(amount)"
+  ],
+  "row_count": 3,
+  "rows": [
+   [
+    "bank_transfer",
+    13563185
+   ],
+   [
+    "card",
+    48168280
+   ],
+   [
+    "cash",
+    28315120
+   ]
+  ]
+ },
+ "M06": {
+  "difficulty": "medium",
+  "columns": [
+   "month",
+   "COUNT(*)"
+  ],
+  "row_count": 12,
+  "rows": [
+   [
+    "2025-01",
+    69
+   ],
+   [
+    "2025-02",
+    62
+   ],
+   [
+    "2025-03",
+    72
+   ],
+   [
+    "2025-04",
+    73
+   ],
+   [
+    "2025-05",
+    84
+   ],
+   [
+    "2025-06",
+    77
+   ],
+   [
+    "2025-07",
+    88
+   ],
+   [
+    "2025-08",
+    98
+   ],
+   [
+    "2025-09",
+    79
+   ],
+   [
+    "2025-10",
+    82
+   ],
+   [
+    "2025-11",
+    90
+   ],
+   [
+    "2025-12",
+    86
+   ]
+  ]
+ },
+ "M07": {
+  "difficulty": "medium",
+  "columns": [
+   "name",
+   "revenue"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    "SUV",
+    24044700
+   ]
+  ]
+ },
+ "M08": {
+  "difficulty": "medium",
+  "columns": [
+   "COUNT(DISTINCT customer_id)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    520
+   ]
+  ]
+ },
+ "M09": {
+  "difficulty": "medium",
+  "columns": [
+   "name",
+   "SUM(m.cost)"
+  ],
+  "row_count": 6,
+  "rows": [
+   [
+    "Lahore Gulberg",
+    3060400
+   ],
+   [
+    "Karachi Clifton",
+    3746300
+   ],
+   [
+    "Islamabad F-7",
+    2596500
+   ],
+   [
+    "Faisalabad Central",
+    1655200
+   ],
+   [
+    "Multan Cantt",
+    1604000
+   ],
+   [
+    "Peshawar Saddar",
+    655700
+   ]
+  ]
+ },
+ "M10": {
+  "difficulty": "medium",
+  "columns": [
+   "service_type",
+   "AVG(cost)"
+  ],
+  "row_count": 6,
+  "rows": [
+   [
+    "brake_service",
+    29311.627906976744
+   ],
+   [
+    "detailing",
+    4293.75
+   ],
+   [
+    "inspection",
+    5684.883720930233
+   ],
+   [
+    "oil_change",
+    6634.343434343435
+   ],
+   [
+    "repair",
+    136289.70588235295
+   ],
+   [
+    "tire_replacement",
+    65517.391304347824
+   ]
+  ]
+ },
+ "M11": {
+  "difficulty": "medium",
+  "columns": [
+   "name",
+   "COUNT(*)"
+  ],
+  "row_count": 6,
+  "rows": [
+   [
+    "Lahore Gulberg",
+    70
+   ],
+   [
+    "Karachi Clifton",
+    95
+   ],
+   [
+    "Islamabad F-7",
+    59
+   ],
+   [
+    "Faisalabad Central",
+    37
+   ],
+   [
+    "Multan Cantt",
+    35
+   ],
+   [
+    "Peshawar Saddar",
+    19
+   ]
+  ]
+ },
+ "M12": {
+  "difficulty": "medium",
+  "columns": [
+   "name",
+   "cancelled"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    "Karachi Clifton",
+    44
+   ]
+  ]
+ },
+ "M13": {
+  "difficulty": "medium",
+  "columns": [
+   "method",
+   "SUM(amount)"
+  ],
+  "row_count": 3,
+  "rows": [
+   [
+    "bank_transfer",
+    167650
+   ],
+   [
+    "card",
+    533400
+   ],
+   [
+    "cash",
+    481425
+   ]
+  ]
+ },
+ "M14": {
+  "difficulty": "medium",
+  "columns": [
+   "plate_number",
+   "name"
+  ],
+  "row_count": 6,
+  "rows": [
+   [
+    "TMK-503",
+    "Lahore Gulberg"
+   ],
+   [
+    "RTA-742",
+    "Multan Cantt"
+   ],
+   [
+    "KBJ-563",
+    "Lahore Gulberg"
+   ],
+   [
+    "ZNC-125",
+    "Islamabad F-7"
+   ],
+   [
+    "LSJ-154",
+    "Karachi Clifton"
+   ],
+   [
+    "MUE-196",
+    "Lahore Gulberg"
+   ]
+  ]
+ },
+ "M15": {
+  "difficulty": "medium",
+  "columns": [
+   "make",
+   "AVG(mileage)"
+  ],
+  "row_count": 5,
+  "rows": [
+   [
+    "Honda",
+    60160.242424242424
+   ],
+   [
+    "Hyundai",
+    78264.17647058824
+   ],
+   [
+    "KIA",
+    33894.333333333336
+   ],
+   [
+    "Suzuki",
+    77489.09677419355
+   ],
+   [
+    "Toyota",
+    70630.23076923077
+   ]
+  ]
+ },
+ "M16": {
+  "difficulty": "medium",
+  "columns": [
+   "year",
+   "COUNT(*)"
+  ],
+  "row_count": 4,
+  "rows": [
+   [
+    "2022",
+    126
+   ],
+   [
+    "2023",
+    330
+   ],
+   [
+    "2024",
+    614
+   ],
+   [
+    "2025",
+    960
+   ]
+  ]
+ },
+ "M17": {
+  "difficulty": "medium",
+  "columns": [
+   "first_name",
+   "last_name",
+   "COUNT(*)"
+  ],
+  "row_count": 14,
+  "rows": [
+   [
+    "Maryam",
+    "Mirza",
+    6
+   ],
+   [
+    "Zain",
+    "Akhtar",
+    4
+   ],
+   [
+    "Bushra",
+    "Dar",
+    9
+   ],
+   [
+    "Huma",
+    "Shah",
+    5
+   ],
+   [
+    "Areeba",
+    "Dar",
+    15
+   ],
+   [
+    "Rabia",
+    "Zaidi",
+    6
+   ],
+   [
+    "Ahmed",
+    "Zaidi",
+    8
+   ],
+   [
+    "Areeba",
+    "Akhtar",
+    5
+   ],
+   [
+    "Noor",
+    "Baig",
+    7
+   ],
+   [
+    "Waqas",
+    "Mirza",
+    8
+   ],
+   [
+    "Waqas",
+    "Rana",
+    4
+   ],
+   [
+    "Huma",
+    "Dar",
+    6
+   ],
+   [
+    "Hassan",
+    "Khan",
+    9
+   ],
+   [
+    "Saima",
+    "Awan",
+    5
+   ]
+  ]
+ },
+ "M18": {
+  "difficulty": "medium",
+  "columns": [
+   "COUNT(*)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    65
+   ]
+  ]
+ },
+ "M19": {
+  "difficulty": "medium",
+  "columns": [
+   "plate_number",
+   "make",
+   "model",
+   "total_cost"
+  ],
+  "row_count": 3,
+  "rows": [
+   [
+    "UXF-212",
+    "Honda",
+    "Civic",
+    624300
+   ],
+   [
+    "WTT-921",
+    "Suzuki",
+    "Bolan",
+    605900
+   ],
+   [
+    "MVV-563",
+    "Toyota",
+    "Corolla",
+    550400
+   ]
+  ]
+ },
+ "M20": {
+  "difficulty": "medium",
+  "columns": [
+   "loyalty_tier",
+   "AVG(r.total_amount)"
+  ],
+  "row_count": 4,
+  "rows": [
+   [
+    "Bronze",
+    46216.27358490566
+   ],
+   [
+    "Gold",
+    46097.43083003953
+   ],
+   [
+    "Platinum",
+    44821.67300380228
+   ],
+   [
+    "Silver",
+    44589.71499380421
+   ]
+  ]
+ },
+ "H01": {
+  "difficulty": "hard",
+  "columns": [
+   "COUNT(*)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    158
+   ]
+  ]
+ },
+ "H02": {
+  "difficulty": "hard",
+  "columns": [
+   "plate_number",
+   "make",
+   "model"
+  ],
+  "row_count": 4,
+  "rows": [
+   [
+    "TRC-946",
+    "Toyota",
+    "Corolla"
+   ],
+   [
+    "UJA-341",
+    "Honda",
+    "City"
+   ],
+   [
+    "EZZ-733",
+    "Suzuki",
+    "Bolan"
+   ],
+   [
+    "JUN-324",
+    "KIA",
+    "Picanto"
+   ]
+  ]
+ },
+ "H03": {
+  "difficulty": "hard",
+  "columns": [
+   "COUNT(*)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    11
+   ]
+  ]
+ },
+ "H04": {
+  "difficulty": "hard",
+  "columns": [
+   "rental_id",
+   "first_name",
+   "last_name"
+  ],
+  "row_count": 5,
+  "rows": [
+   [
+    2123,
+    "Iqra",
+    "Khan"
+   ],
+   [
+    2136,
+    "Amna",
+    "Lodhi"
+   ],
+   [
+    2148,
+    "Saima",
+    "Cheema"
+   ],
+   [
+    2153,
+    "Zainab",
+    "Akhtar"
+   ],
+   [
+    2155,
+    "Ali",
+    "Chaudhry"
+   ]
+  ]
+ },
+ "H05": {
+  "difficulty": "hard",
+  "columns": [
+   "month",
+   "revenue"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    "2025-05",
+    4726500
+   ]
+  ]
+ },
+ "H06": {
+  "difficulty": "hard",
+  "columns": [
+   "COUNT(*)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    190
+   ]
+  ]
+ },
+ "H07": {
+  "difficulty": "hard",
+  "columns": [
+   "name",
+   "COUNT(*)"
+  ],
+  "row_count": 6,
+  "rows": [
+   [
+    "Lahore Gulberg",
+    63
+   ],
+   [
+    "Karachi Clifton",
+    68
+   ],
+   [
+    "Islamabad F-7",
+    58
+   ],
+   [
+    "Faisalabad Central",
+    23
+   ],
+   [
+    "Multan Cantt",
+    29
+   ],
+   [
+    "Peshawar Saddar",
+    29
+   ]
+  ]
+ },
+ "H08": {
+  "difficulty": "hard",
+  "columns": [
+   "(SELECT SUM(total_amount) FROM rentals WHERE status = 'completed' AND strftime('%Y', start_date) = '2025') - (SELECT SUM(total_amount) FROM rentals WHERE status = 'completed' AND strftime('%Y', start_date) = '2024')"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    19298850
+   ]
+  ]
+ },
+ "H09": {
+  "difficulty": "hard",
+  "columns": [
+   "COUNT(*)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    37
+   ]
+  ]
+ },
+ "H10": {
+  "difficulty": "hard",
+  "columns": [
+   "COUNT(*)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    42
+   ]
+  ]
+ },
+ "H11": {
+  "difficulty": "hard",
+  "columns": [
+   "COUNT(*)"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    69
+   ]
+  ]
+ },
+ "H12": {
+  "difficulty": "hard",
+  "columns": [
+   "month",
+   "revenue",
+   "running_total"
+  ],
+  "row_count": 12,
+  "rows": [
+   [
+    "2025-01",
+    3630000,
+    3630000
+   ],
+   [
+    "2025-02",
+    2908750,
+    6538750
+   ],
+   [
+    "2025-03",
+    3580250,
+    10119000
+   ],
+   [
+    "2025-04",
+    4102750,
+    14221750
+   ],
+   [
+    "2025-05",
+    4726500,
+    18948250
+   ],
+   [
+    "2025-06",
+    3306500,
+    22254750
+   ],
+   [
+    "2025-07",
+    4423250,
+    26678000
+   ],
+   [
+    "2025-08",
+    4591000,
+    31269000
+   ],
+   [
+    "2025-09",
+    3759250,
+    35028250
+   ],
+   [
+    "2025-10",
+    3628750,
+    38657000
+   ],
+   [
+    "2025-11",
+    4267750,
+    42924750
+   ],
+   [
+    "2025-12",
+    3004000,
+    45928750
+   ]
+  ]
+ },
+ "H13": {
+  "difficulty": "hard",
+  "columns": [
+   "name",
+   "ROUND(100.0 * SUM(CASE WHEN r.actual_return_date > r.end_date THEN 1 ELSE 0 END) / COUNT(*), 1)"
+  ],
+  "row_count": 6,
+  "rows": [
+   [
+    "Lahore Gulberg",
+    14.8
+   ],
+   [
+    "Karachi Clifton",
+    18.3
+   ],
+   [
+    "Islamabad F-7",
+    13.2
+   ],
+   [
+    "Faisalabad Central",
+    19.4
+   ],
+   [
+    "Multan Cantt",
+    15.0
+   ],
+   [
+    "Peshawar Saddar",
+    13.2
+   ]
+  ]
+ },
+ "H14": {
+  "difficulty": "hard",
+  "columns": [
+   "plate_number",
+   "year",
+   "total_cost"
+  ],
+  "row_count": 26,
+  "rows": [
+   [
+    "LRE-154",
+    2018,
+    107400
+   ],
+   [
+    "MDY-155",
+    2020,
+    237900
+   ],
+   [
+    "AMB-340",
+    2018,
+    57800
+   ],
+   [
+    "UXF-212",
+    2020,
+    624300
+   ],
+   [
+    "EJG-443",
+    2018,
+    397300
+   ],
+   [
+    "ZWB-977",
+    2018,
+    168600
+   ],
+   [
+    "XPD-687",
+    2019,
+    77200
+   ],
+   [
+    "XKB-581",
+    2019,
+    378600
+   ],
+   [
+    "MVV-563",
+    2020,
+    550400
+   ],
+   [
+    "TYD-402",
+    2018,
+    212400
+   ],
+   [
+    "GUT-727",
+    2018,
+    79400
+   ],
+   [
+    "YSX-213",
+    2019,
+    61600
+   ],
+   [
+    "ZXE-568",
+    2019,
+    328600
+   ],
+   [
+    "CGT-608",
+    2019,
+    93800
+   ],
+   [
+    "VFJ-395",
+    2020,
+    122100
+   ],
+   [
+    "YRD-648",
+    2018,
+    205100
+   ],
+   [
+    "GZW-809",
+    2019,
+    209500
+   ],
+   [
+    "XVD-219",
+    2018,
+    178800
+   ],
+   [
+    "HHJ-652",
+    2019,
+    54200
+   ],
+   [
+    "ZNC-125",
+    2020,
+    117000
+   ],
+   [
+    "HCM-141",
+    2019,
+    186100
+   ],
+   [
+    "DNH-511",
+    2020,
+    450400
+   ],
+   [
+    "BRP-327",
+    2018,
+    98900
+   ],
+   [
+    "PYX-469",
+    2020,
+    317900
+   ],
+   [
+    "PJM-546",
+    2020,
+    346000
+   ]
+  ]
+ },
+ "H15": {
+  "difficulty": "hard",
+  "columns": [
+   "name",
+   "avg_rev"
+  ],
+  "row_count": 1,
+  "rows": [
+   [
+    "Islamabad F-7",
+    48308.25892857143
+   ]
+  ]
+ }
+}
